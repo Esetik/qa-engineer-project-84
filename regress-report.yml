@@ -2,63 +2,63 @@
 test-cases:
 - summary: |
       Проверка возможности открыть карточку товара и посмотреть информацию о товаре
-status: pass
+  status: pass
     
 - summary: |
       Проверка возможности добавления товара в корзину с главной страницы
-status: pass
+  status: pass
 
 - summary: |
       Проверка отображения в корзине данных о товаре, его названии, его количестве, цене со скидкой и без
-status: pass  
+  status: pass  
 
 - summary: |
       Проверка возможности удаления товара из "Корзины"
-status: pass  
+  status: pass  
 
 - summary: |
       Проверка возможности вернуться к просматриваемым товарам из "Корзины"
-status: pass  
+  status: pass  
 
 - summary: |
       Проверка возможности очистить "Корзину"
-status: pass  
+  status: pass  
 
 - summary: |
       Проверка возможности перехода на страницу оформления заказа из "Корзины"
-status: fail
+  status: fail
 
 - summary: |
       Проверка возможности искать товары по ключевому слову (тегу) на русском языке
-status: fail
+  status: fail
 
 - summary: |
       Проверка возможности искать товары по ключевому слову (тегу) на английском языке
-status: pass
+  status: pass
 
 - summary: |
       Проверка возможности искать товар по категории
-status: pass  
+  status: pass  
 
 - summary: |
       Проверка возможности фильтровать товары по производителям
-status: pass    
+  status: pass    
 
 - summary: |
       Проверка кнопки "В наличии"
-status: fail      
+  status: fail      
 
 - summary: |
      Проверка фильтра по цене ОТ
-status: fail
+  status: fail
   
 - summary: |
       Проверка адаптивности сайта для смартфонов
-status: fail
+  status: fail
 
 - summary: |
       Проверка на кроссбраузерность в Firefox
-status: pass     
+  status: pass     
 
 bugreports: 
 - summary: Невозможно оплатить заказ при оформлении
